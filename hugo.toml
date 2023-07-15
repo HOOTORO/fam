@@ -1,4 +1,4 @@
-baseURL = 'https://HOOTORO.github.io/'
+baseURL = 'https://HOOTORO.github.io/fam'
 languageCode = 'en-us'
-title = 'HOOTORO'
+title = 'HOOTORO Family'
 theme = 'holy'
