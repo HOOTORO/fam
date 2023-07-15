@@ -1,1 +1,1 @@
-# fam
+# famhugo server -t holy

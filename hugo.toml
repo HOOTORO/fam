@@ -1,0 +1,4 @@
+baseURL = 'https://HOOTORO.github.io/'
+languageCode = 'en-us'
+title = 'HOOTORO'
+theme = 'holy'
