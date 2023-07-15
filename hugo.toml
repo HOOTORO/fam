@@ -4,7 +4,6 @@ title = 'Family'
 theme = 'holy'
 enableEmoji = true
 enableGitInfo = true
-watch = true
 
 [params]
 AuthorName = 'Mark'
@@ -82,7 +81,6 @@ keepWhitespace = false
 [minify.tdewolff.js]
 keepVarNames = false
 precision = 0
-version = 2022
 [minify.tdewolff.json]
 keepNumbers = false
 precision = true
