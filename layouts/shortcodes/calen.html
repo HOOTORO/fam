@@ -1,3 +1,7 @@
+{{ $style := resources.Get "sass/codes.scss" | resources.ToCSS | resources.Minify }}
+<style>
+    @import url('https://fonts.cdnfonts.com/css/twilio-sans-mono');
+</style>
 <div id="datesn">
     <script>
         let dates = {{ $.Site.Data.dates }};

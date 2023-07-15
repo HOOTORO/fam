@@ -1,78 +1,82 @@
-- name: FATHER
+- name: Sergey Alexandrovich, Markov
   rel: Dad
   birth: 07.02.1968
   death: 23.01.2021
-- name: Roman Velichko
-  rel: Godmother's Husband
-  birth: 24.01
-- name: Maxim Maslikov
-  rel: Brother
-  birth: 23.02.1995
-- name: Vladimir Neib
-  rel: Friend
-  birth: 29.05
-- name: Konstantin Stark
-  rel: Friend
-  birth: 03.06
-- name: Denis Romanovich, Velichko
-  rel: Brother
-  birth: 10.03
-- name: Alex Dudarev
-  rel: guy in da HOOODS (Close friends)
-  birth: 20.03
-- name: Veronica Markova
-  rel: SISTER
-  birth: 24.03.1997
-- name: Alexander Markovich, Markov
-  rel: GRANDPA
-  birth:
-  death: 27.04
-- name: Matvey Romanovich, Velichko
-  rel: BROTHER
-  birth: 15.05
 - name: Svetlana Nikolaevna
-  rel: MOM
+  rel: . -> Mom
   birth: 31.05
-- name: Tasi Eugenievna, Novikova
-  rel: SISTER
-  birth: 17.05.2007
-- name: Elena Chuprova
-  rel: Aunt
-  birth: 06.08
-- name: Nikita Alekseevich, Glinov
-  rel: BROTHER
-  birth: 07.06.1995
-- name: PATRIARCH Bibirevsky
-  rel: INDA HOOODS
-  birth: 04.05
-- name: Konstantin Sokolov
-  rel: guy in da HOOODS (Close friends)
-  wedding: 26.08.2022
-  birth: 13.12.1989
-- name: Nataly Alexandrovna, Velichko
-  rel: Godmother
-  birth: 30.08
-- name: GENERAL GUDRON
-  rel: Girlfiend
-  birth: 05.09
-- name: Anna Pavlovna, Markova
-  rel: GRANDMA, father's line
-  birth: 17.09
-- name: Nina Sergeevna, Chugueva
-  rel: GRANDMA, mother's line
-  birth: 10.02.1942
-- name: Ioan Chuprov
-  rel: BROTHER
-  birth: 23.09
-- name: Dmitry Vladimirovich, Lebedev
-  rel: BROTHER
-  birth: 22.02.
-- name: Vera Ivanovana, Maslikova
-  rel: Mom -> Siseter
-  birth: 03.02.1955
-- name: Vladimir Ivanovich, Lebedev
-  rel: Mom -> Brother
-  birth: 12.03.1966
 - name: Eugeny Vasilievich, Novikov
   rel: Mom -> Husband
   birth: 11.04.1976
+- name: Vasiliy Konstantinovich, Novikov
+  rel: Eugeny Vasilievich -> Father
+  birth: 01.02.1950
+  death: 24.05.2019
+- name: Nikita Alekseevich, Glinov
+  rel: . -> Brother
+  birth: 07.06.1995
+- name: Veronica Markova
+  rel: . -> Sister
+  birth: 24.03.1997
+- name: Tasi Eugenievna, Novikova
+  rel: . -> Sister
+  birth: 17.05.2007
+- name: Alexander Markovich, Markov
+  rel: . -> Grandpa, Father's line
+  birth:
+  death: 27.04
+- name: Anna Pavlovna, Markova
+  rel: . -> GRANDMA, Father's line
+  birth: 17.09
+- name: Nina Sergeevna, Chugueva
+  rel: . -> GRANDMA, Mother's line
+  birth: 10.02.1942
+- name: Nataly Alexandrovna, Velichko
+  rel: . -> Godmother
+  birth: 30.08
+- name: Roman Velichko
+  rel: Godmother -> Husband
+  birth: 24.01
+- name: Denis Romanovich, Velichko
+  rel: . -> Brother
+  birth: 10.03
+- name: Matvey Romanovich, Velichko
+  rel: . -> Brother
+  birth: 15.05
+- name: Ivan Chuprov
+  rel: . -> Brother
+  birth: 23.09
+- name: Elena Chuprova
+  rel: Ivan -> Mother
+  birth: 06.08
+- name: Vera Ivanovana, Maslikova
+  rel: Mom -> Sister
+  birth: 03.02.1955
+- name: Maxim Maslikov
+  rel: . -> Brother
+  birth: 23.02.1995
+- name: Dmitry Vladimirovich, Lebedev
+  rel: . -> Brother
+  birth: 22.02.
+- name: Vladimir Ivanovich, Lebedev
+  rel: Mom -> Brother
+  birth: 12.03.1966
+- name: GENERAL GUDRON
+  rel: . -> Girlfiend
+  birth: 05.09
+- name: Mark Sergeevich
+  rel: .
+  birth: 21.07.1989
+- name: Konstantin Sokolov
+  rel: . -> Close friends
+  wedding: 26.08.2022
+  birth: 13.12.1989
+- name: Alex Dudarev
+  rel: . -> Close friends
+  birth: 20.03
+- name: Vladimir Idiatulin
+  rel: . -> Close Friend
+  birth: 29.05
+- name: PATRIARCH Bibirevsky
+  rel: . -> Close Friends
+  birth: 04.05
