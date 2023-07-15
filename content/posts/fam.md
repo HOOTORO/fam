@@ -1,7 +1,11 @@
 ---
-title: "Fam"
+title: "В планах"
 date: 2023-07-15T09:44:17+03:00
 draft: true
+hide_footer: true
 ---
 
-Some post description
+
+- [ ] Построить дерево
+- [ ] Собрать больше данных
+- [ ] Добавить стилей

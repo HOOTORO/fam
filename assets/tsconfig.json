@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "rootDir": "assets",
+        "outDir": "static/js",
+        "target": "ESNext"
+    },
+    "include": [
+        "src/**/*",
+        "assets/**/*"
+    ]
+}
