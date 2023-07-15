@@ -1,5 +1,6 @@
 baseURL = 'https://HOOTORO.github.io/fam/'
-languageCode = 'en-us'
+homepage = 'https://HOOTORO.github.io/fam/'
+languageCode = 'ru-ru'
 title = 'Family'
 theme = 'holy'
 enableEmoji = true
