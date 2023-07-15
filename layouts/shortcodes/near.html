@@ -1,6 +1,6 @@
 {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
 {{ $js := resources.Get "ts/countdown.ts" | js.Build "near1.js" | minify | fingerprint }}
-<link rel="stylesheet" href="/css/near.css" />
+<link rel="stylesheet" href="/fam/css/near.css" />
 
 <div class="container">
     <h1 id="headline">Countdown to nearest notable date</h1>
