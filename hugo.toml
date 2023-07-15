@@ -39,6 +39,25 @@ name = 'About'
 pageRef = '/about'
 weight = 90
 
+[caches]
+[caches.assets]
+dir = ':resourceDir/_gen'
+maxAge = -1
+[caches.getcsv]
+dir = ':cacheDir/:project'
+maxAge = -1
+[caches.getjson]
+dir = ':cacheDir/:project'
+maxAge = -1
+[caches.getresource]
+dir = ':cacheDir/:project'
+maxAge = -1
+[caches.images]
+dir = ':resourceDir/_gen'
+maxAge = -1
+[caches.modules]
+dir = ':cacheDir/modules'
+maxAge = -1
 
 [minify]
 disableCSS = false
@@ -51,7 +70,7 @@ minifyOutput = false
 [minify.tdewolff]
 [minify.tdewolff.css]
 keepCSS2 = true
-precision = 0
+precision = 2
 [minify.tdewolff.html]
 keepComments = false
 keepConditionalComments = true
@@ -66,9 +85,8 @@ precision = 0
 version = 2022
 [minify.tdewolff.json]
 keepNumbers = false
-precision = 0
+precision = true
 [minify.tdewolff.svg]
-keepComments = false
 precision = 0
 [minify.tdewolff.xml]
 keepWhitespace = false
