@@ -1,4 +1,9 @@
 {{ define "main" }}
+{{ $style := resources.Get "sass/some.scss" | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/twilio-sans-mono');
+</style>
 <div class="d:flex flex:col">
   {{- partial "prose.html" . -}}
   {{- range where site.RegularPages "Type" "in" site.Params.mainSections -}}

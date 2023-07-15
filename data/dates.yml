@@ -15,7 +15,7 @@
 - name: Nikita Alekseevich, Glinov
   rel: . -> Brother
   birth: 07.06.1995
-- name: Veronica Markova
+- name: Veronica Sergeevna, Markova
   rel: . -> Sister
   birth: 24.03.1997
 - name: Tasi Eugenievna, Novikova
@@ -52,7 +52,7 @@
 - name: Vera Ivanovana, Maslikova
   rel: Mom -> Sister
   birth: 03.02.1955
-- name: Maxim Maslikov
+- name: Maxim Nikolaevich, Maslikov
   rel: . -> Brother
   birth: 23.02.1995
 - name: Dmitry Vladimirovich, Lebedev
@@ -61,7 +61,7 @@
 - name: Vladimir Ivanovich, Lebedev
   rel: Mom -> Brother
   birth: 12.03.1966
-- name: GENERAL GUDRON
+- name: Polina Podsipanina
   rel: . -> Girlfiend
   birth: 05.09
 - name: Mark Sergeevich
@@ -76,20 +76,20 @@
   birth: 07.09.1989
 - name: Alex Dudarev
   rel: . -> Close friends
-  birth: 20.03
+  birth: 15.03.1991
 - name: Anasta Kirpich
   rel: . -> Close friends
   birth: 23.05
 - name: Mikhail Perepelkin
   rel: . -> Close friends
-  birth: 20.08
-- name: Alexandra Lyakh
+  birth: 08.08.1988
+- name: Alexandra Vadimovna, Lyakh
   rel: . -> Close friends
   birth: 29.08
-- name: Sergey Arinchev
+- name: Sergey Arinichev
   rel: . -> Close friends
-  birth: 12.07
-- name: Vladimir Idiatulin
+  birth: 12.07.1987
+- name: Vladimir Rinatovich, Idiatulin
   rel: . -> Close Friend
   birth: 29.05
 - name: PATRIARCH Bibirevsky

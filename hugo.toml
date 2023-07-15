@@ -32,7 +32,7 @@ title         = 'Family'
 
   [[menu.main]]
 
-    name    = 'Дом'
+    name    = '/'
     pageRef = '/'
     weight  = 10
 
@@ -49,7 +49,7 @@ title         = 'Family'
   #   weight  = 30
   [[menu.main]]
 
-    name    = 'О чем'
+    name    = '<|'
     pageRef = '/about'
     weight  = 90
 

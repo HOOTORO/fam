@@ -5,7 +5,10 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true
-    // "themes": true,
+    "**/Thumbs.db": true,
+    "themes": true,
+    "resources": true,
+    "archetypes": true,
+    ".github": true
   }
 }

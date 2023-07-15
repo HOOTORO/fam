@@ -1,5 +1,10 @@
 {{ $style := resources.Get "sass/bout.scss" | toCSS | minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $style := resources.Get "sass/some.scss" | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/twilio-sans-mono');
+</style>
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
 {{ $command := .Get 1 }}
 {{ $options := .Get 2 }}
