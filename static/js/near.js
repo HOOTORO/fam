@@ -6,7 +6,7 @@
         day = hour * 24;
     const now = new Date();
     const notableDates = toDates(dates).filter((x) => x.birth > now);
-    const near = nearest(3, notableDates);
+    const near = nearest(4, notableDates);
 
     //I'm adding this section so I don't have to keep updating this pen every year :-)
     //remove this if you don't need it
@@ -24,6 +24,9 @@
     }
     //end
     document.getElementById("nextnota").innerText = near[0].name;
+    document.getElementById("follow-next").innerText =
+        "\n" + followedby(near.slice(1));
+
     const countDown = new Date(birthday).getTime(),
         x = setInterval(function () {
             const now = new Date().getTime(),
@@ -46,7 +49,7 @@
             if (distance < 0) {
                 document.getElementById(
                     "headline"
-                ).innerText = `Today is ${near[0].name} birthday!`;
+                ).innerText = `Сегодня день когда родился ${near[0].name}!`;
                 document.getElementById("countdown").style.display = "none";
                 document.getElementById("content").style.display = "block";
                 clearInterval(x);
@@ -77,4 +80,13 @@ function nearest(n, dates) {
     return dates
         .sort((a, b) => a.birth.getTime() - b.birth.getTime())
         .slice(0, n);
+}
+
+function followedby(data) {
+    return data
+        .map(
+            (x) =>
+                `${x.name} | ${x.birth.toLocaleDateString()} | явление миру\n`
+        )
+        .join("\n");
 }

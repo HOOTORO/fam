@@ -12,7 +12,7 @@ function toDates(data: RawNotable[]) {
 
         return {
             name: x.name,
-            birth: new Date(now.getFullYear(), bd[1], bd[0]),
+            birth: new Date(now., bd[1], bd[0]),
             death: new Date(x.death as string),
         };
     });

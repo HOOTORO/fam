@@ -22,19 +22,19 @@ publishDate = ['publishDate', 'date']
 
 [menu]
 [[menu.main]]
-name = 'Home'
+name = 'Дом'
 pageRef = '/'
 weight = 10
 [[menu.main]]
-name = 'Dates'
+name = 'Даты'
 pageRef = '/dates'
 weight = 20
 [[menu.main]]
-name = 'Info'
+name = 'Инфо'
 pageRef = '/info'
 weight = 30
 [[menu.main]]
-name = 'About'
+name = 'О чем'
 pageRef = '/about'
 weight = 90
 

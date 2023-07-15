@@ -3,14 +3,15 @@
 <link rel="stylesheet" href="/fam/css/near.css" />
 
 <div class="container">
-    <h1 id="headline">Countdown to nearest notable date</h1>
+    <h1 id="headline">Ближайшая семейная дата</h1>
     <h2 id="nextnota"></h2>
     <div id="countdown">
+        через
         <ul>
-            <li><span id="days"></span>days</li>
-            <li><span id="hours"></span>Hours</li>
-            <li><span id="minutes"></span>Minutes</li>
-            <li><span id="seconds"></span>Seconds</li>
+            <li><span id="days"></span>дней</li>
+            <li><span id="hours"></span>часов</li>
+            <li><span id="minutes"></span>минут</li>
+            <li><span id="seconds"></span>секунд</li>
         </ul>
     </div>
     <div id="content" class="emoji">
@@ -18,6 +19,8 @@
         <span>🎉</span>
         <span>🎂</span>
     </div>
+    <h6>Следуют после</h6>
+    <div id="follow-next"></div>
 </div>
 <script>
     let dates = {{ $.Site.Data.dates }};
