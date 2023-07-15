@@ -1,8 +1,5 @@
-{{ $style := resources.Get "sass/codes.scss" | toCSS | minify }}
+{{ $style := resources.Get "sass/near.scss" | toCSS | minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
-
-{{ $js := resources.Get "ts/countdown.ts" | js.Build "near1.js" }}
-<link rel="stylesheet" href="/fam/css/near.css" />
 
 <div class="container">
   <h1 id="headline">Ближайшая семейная дата</h1>
