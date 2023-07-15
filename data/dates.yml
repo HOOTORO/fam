@@ -23,7 +23,7 @@
   birth: 17.05.2007
 - name: Alexander Markovich, Markov
   rel: . -> Grandpa, Father's line
-  birth:
+  birth: 08.06.1945
   death: 27.04
 - name: Anna Pavlovna, Markova
   rel: . -> GRANDMA, Father's line
@@ -67,16 +67,31 @@
 - name: Mark Sergeevich
   rel: .
   birth: 21.07.1989
-- name: Konstantin Sokolov
+- name: Konstantin Olegovich, Sokolov
   rel: . -> Close friends
   wedding: 26.08.2022
   birth: 13.12.1989
+- name: Yaroslav Olegovich, Andrusyak
+  rel: . -> Close friends
+  birth: 07.09.1989
 - name: Alex Dudarev
   rel: . -> Close friends
   birth: 20.03
+- name: Anasta Kirpich
+  rel: . -> Close friends
+  birth: 23.05
+- name: Mikhail Perepelkin
+  rel: . -> Close friends
+  birth: 20.08
+- name: Alexandra Lyakh
+  rel: . -> Close friends
+  birth: 29.08
+- name: Sergey Arinchev
+  rel: . -> Close friends
+  birth: 12.07
 - name: Vladimir Idiatulin
   rel: . -> Close Friend
   birth: 29.05
 - name: PATRIARCH Bibirevsky
   rel: . -> Close Friends
-  birth: 04.05
+  birth: 04.05.1991

@@ -42,11 +42,11 @@ title         = 'Family'
     pageRef = '/dates'
     weight  = 20
 
-  [[menu.main]]
+    # [[menu.main]]
 
-    name    = 'Инфо'
-    pageRef = '/info'
-    weight  = 30
+  #   name    = 'Инфо'
+  #   pageRef = '/info'
+  #   weight  = 30
   [[menu.main]]
 
     name    = 'О чем'
