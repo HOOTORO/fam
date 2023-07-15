@@ -1,91 +1,106 @@
-baseURL = 'https://HOOTORO.github.io/fam/'
-homepage = 'https://HOOTORO.github.io/fam/'
-languageCode = 'ru-ru'
-title = 'Family'
-theme = 'holy'
-enableEmoji = true
+baseURL       = 'https://HOOTORO.github.io/fam/'
+enableEmoji   = true
 enableGitInfo = true
+homepage      = 'https://HOOTORO.github.io/fam/'
+languageCode  = 'ru-ru'
+theme         = 'holy'
+title         = 'Family'
 
 [params]
-AuthorName = 'Mark'
-GitHubUser = 'HOOTORO'
-ListOfFoo = ['foo1', 'foo2']
-SidebarRecentLimit = 5
-Subtitle = 'Incoming Dates'
+
+  AuthorName         = 'Mark'
+  GitHubUser         = 'HOOTORO'
+  ListOfFoo          = ['foo1', 'foo2']
+  SidebarRecentLimit = 5
+  Subtitle           = 'Incoming Dates'
+  email              = "example@hugo.ry"
+  github             = "https://github.com/HOOTORO/"
+  logo               = "/images/catfam.png"
+  popup              = "hi"
+
 [permalinks]
-posts = '/:year/:month/:title/'
+  page  = "/:title/"
+  posts = '/:year/:month/:title/'
 
 [frontmatter]
-date = ['date', 'publishDate', 'lastmod']
-expiryDate = ['expiryDate']
-lastmod = [':git', 'lastmod', 'date', 'publishDate']
-publishDate = ['publishDate', 'date']
+  date        = ['date', 'lastmod', 'publishDate']
+  expiryDate  = ['expiryDate']
+  lastmod     = [':git', 'date', 'lastmod', 'publishDate']
+  publishDate = ['date', 'publishDate']
 
 [menu]
-[[menu.main]]
-name = 'Дом'
-pageRef = '/'
-weight = 10
-[[menu.main]]
-name = 'Даты'
-pageRef = '/dates'
-weight = 20
-[[menu.main]]
-name = 'Инфо'
-pageRef = '/info'
-weight = 30
-[[menu.main]]
-name = 'О чем'
-pageRef = '/about'
-weight = 90
+
+  [[menu.main]]
+
+    name    = 'Дом'
+    pageRef = '/'
+    weight  = 10
+
+  [[menu.main]]
+
+    name    = 'Даты'
+    pageRef = '/dates'
+    weight  = 20
+
+  [[menu.main]]
+
+    name    = 'Инфо'
+    pageRef = '/info'
+    weight  = 30
+  [[menu.main]]
+
+    name    = 'О чем'
+    pageRef = '/about'
+    weight  = 90
 
 [caches]
-[caches.assets]
-dir = ':resourceDir/_gen'
-maxAge = -1
-[caches.getcsv]
-dir = ':cacheDir/:project'
-maxAge = -1
-[caches.getjson]
-dir = ':cacheDir/:project'
-maxAge = -1
-[caches.getresource]
-dir = ':cacheDir/:project'
-maxAge = -1
-[caches.images]
-dir = ':resourceDir/_gen'
-maxAge = -1
-[caches.modules]
-dir = ':cacheDir/modules'
-maxAge = -1
+
+  [caches.assets]
+    dir    = ':resourceDir/_gen'
+    maxAge = -1
+  [caches.getcsv]
+    dir    = ':cacheDir/:project'
+    maxAge = -1
+  [caches.getjson]
+    dir    = ':cacheDir/:project'
+    maxAge = -1
+  [caches.getresource]
+    dir    = ':cacheDir/:project'
+    maxAge = -1
+  [caches.images]
+    dir    = ':resourceDir/_gen'
+    maxAge = -1
+  [caches.modules]
+    dir    = ':cacheDir/modules'
+    maxAge = -1
 
 [minify]
-disableCSS = false
-disableHTML = false
-disableJS = false
-disableJSON = false
-disableSVG = false
-disableXML = false
-minifyOutput = false
-[minify.tdewolff]
-[minify.tdewolff.css]
-keepCSS2 = true
-precision = 2
-[minify.tdewolff.html]
-keepComments = false
-keepConditionalComments = true
-keepDefaultAttrVals = true
-keepDocumentTags = true
-keepEndTags = true
-keepQuotes = false
-keepWhitespace = false
-[minify.tdewolff.js]
-keepVarNames = false
-precision = 0
-[minify.tdewolff.json]
-keepNumbers = false
-precision = true
-[minify.tdewolff.svg]
-precision = 0
-[minify.tdewolff.xml]
-keepWhitespace = false
+  disableCSS   = false
+  disableHTML  = false
+  disableJS    = false
+  disableJSON  = false
+  disableSVG   = false
+  disableXML   = false
+  minifyOutput = false
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      keepCSS2  = true
+      precision = 2
+    [minify.tdewolff.html]
+      keepComments            = false
+      keepConditionalComments = true
+      keepDefaultAttrVals     = true
+      keepDocumentTags        = true
+      keepEndTags             = true
+      keepQuotes              = false
+      keepWhitespace          = false
+    [minify.tdewolff.js]
+      keepVarNames = false
+      precision    = 0
+    [minify.tdewolff.json]
+      keepNumbers = false
+      precision   = true
+    [minify.tdewolff.svg]
+      precision = 0
+    [minify.tdewolff.xml]
+      keepWhitespace = false

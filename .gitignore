@@ -12,35 +12,20 @@ build/Release
 
 # Dependency directories
 node_modules
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
+npm-debug.log*
+yarn-error.log
+yarn.lock
+package-lock.json
 
 # dotenv environment variables file
 .env
 
-# Generated files
+# Temporary lock file while building
 .hugo_build.lock
-
-# Hugo
-*.test
-imports.*
-
-node_modules
-.DS_Store
 
 # Generated files by hugo
 /public/
-# /resources/_gen/
+/resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
 
@@ -48,6 +33,3 @@ hugo_stats.json
 hugo.exe
 hugo.darwin
 hugo.linux
-
-# Temporary lock file while building
-/.hugo_build.lock

@@ -1,28 +1,30 @@
-{{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
-{{ $js := resources.Get "ts/countdown.ts" | js.Build "near1.js" | minify | fingerprint }}
+{{ $style := resources.Get "sass/codes.scss" | toCSS | minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+{{ $js := resources.Get "ts/countdown.ts" | js.Build "near1.js" }}
 <link rel="stylesheet" href="/fam/css/near.css" />
 
 <div class="container">
-    <h1 id="headline">Ближайшая семейная дата</h1>
-    <h2 id="nextnota"></h2>
-    <div id="countdown">
-        через
-        <ul>
-            <li><span id="days"></span>дней</li>
-            <li><span id="hours"></span>часов</li>
-            <li><span id="minutes"></span>минут</li>
-            <li><span id="seconds"></span>секунд</li>
-        </ul>
-    </div>
-    <div id="content" class="emoji">
-        <span>🥳</span>
-        <span>🎉</span>
-        <span>🎂</span>
-    </div>
-    <h6>Следуют после</h6>
-    <div id="follow-next"></div>
+  <h1 id="headline">Ближайшая семейная дата</h1>
+  <h2 id="nextnota"></h2>
+  <div id="countdown">
+    <h5 id="nota-about" />
+    <ul>
+      <li><span id="days"></span>дней</li>
+      <li><span id="hours"></span>часов</li>
+      <li><span id="minutes"></span>минут</li>
+      <li><span id="seconds"></span>секунд</li>
+    </ul>
+  </div>
+  <div id="content" class="emoji">
+    <span>🥳</span>
+    <span>🎉</span>
+    <span>🎂</span>
+  </div>
+  <h6>Следуют после</h6>
+  <div id="follow-next"></div>
 </div>
 <script>
-    let dates = {{ $.Site.Data.dates }};
+  let dates = {{ $.Site.Data.dates }};
 </script>
 <script src="/fam/js/near.js"></script>

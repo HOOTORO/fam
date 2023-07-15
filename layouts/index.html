@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="d:flex flex:col">
+  {{- partial "prose.html" . -}}
+  {{- range where site.RegularPages "Type" "in" site.Params.mainSections -}}
+  {{- end -}}
+</div>
+{{ $style := resources.Get "sass/some.scss" | toCSS | minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ end }}
