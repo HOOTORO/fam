@@ -23,7 +23,7 @@
   birth: 17.05.2007
 - name: Alexander Markovich, Markov
   rel: . -> Grandpa, Father's line
-  birth: 08.06.1945
+  birth: 12.06.1945
   death: 27.04
 - name: Anna Pavlovna, Markova
   rel: . -> GRANDMA, Father's line
@@ -63,7 +63,7 @@
   birth: 12.03.1966
 - name: Polina Podsipanina
   rel: . -> Girlfiend
-  birth: 05.09
+  birth: 05.09.1998
 - name: Mark Sergeevich
   rel: .
   birth: 21.07.1989
@@ -74,21 +74,21 @@
 - name: Yaroslav Olegovich, Andrusyak
   rel: . -> Close friends
   birth: 07.09.1989
-- name: Alex Dudarev
+- name: Alex Sergeevich, Dudarev
   rel: . -> Close friends
   birth: 15.03.1991
-- name: Anasta Kirpich
+- name: Anasta Andreevna, Kirpich
   rel: . -> Close friends
-  birth: 23.05
-- name: Mikhail Perepelkin
+  birth: 23.06.1993
+- name: Mikhail Anatolievich, Perepelkin
   rel: . -> Close friends
   birth: 08.08.1988
-- name: Alexandra Vadimovna, Lyakh
+- name: Alexandra Vladislavovna, Lyakh
   rel: . -> Close friends
-  birth: 29.08
-- name: Sergey Arinichev
+  birth: 29.08.1989
+- name: Sergey Vadimovich, Arinichev
   rel: . -> Close friends
-  birth: 12.07.1987
+  birth: 12.07.1988
 - name: Vladimir Rinatovich, Idiatulin
   rel: . -> Close Friend
   birth: 29.05
