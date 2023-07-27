@@ -95,3 +95,7 @@
 - name: PATRIARCH Bibirevsky
   rel: . -> Close Friends
   birth: 04.05.1991
+- name: Kliment Dmitrievich,Glinkin
+  rel: . -> Close Friends
+  Bl.type: 3+
+  birth: 27.04.1997
